@@ -2066,17 +2066,17 @@ a {
    and system dark mode
 ========================================================= */
 
-@media (prefers-color-scheme: dark),
-.dark,
-.dark-mode,
-[data-theme="dark"],
-html.dark,
-html.dark-mode,
-html[data-theme="dark"] {
-
-  :root {
-    color: #edf1f5;
-    background: #0f141a;
+@media (prefers-color-scheme: dark) {
+  .dark,
+  .dark-mode,
+  [data-theme="dark"],
+  html.dark,
+  html.dark-mode,
+  html[data-theme="dark"] {
+    :root {
+      color: #edf1f5;
+      background: #0f141a;
+    }
   }
 
   html {
@@ -4218,4 +4218,5 @@ html[data-theme="dark"] .query-location {
     color: #334155;
     font-size: 13px;
     font-weight: 500;
+}
 }
